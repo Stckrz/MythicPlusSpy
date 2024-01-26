@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MythicPlusSpy/static/css/main.314d883c.css",
+    "main.js": "/MythicPlusSpy/static/js/main.7ef184a9.js",
+    "static/js/787.2ba75fb5.chunk.js": "/MythicPlusSpy/static/js/787.2ba75fb5.chunk.js",
+    "static/media/paper.jpg": "/MythicPlusSpy/static/media/paper.022231c2c961a7936dda.jpg",
+    "index.html": "/MythicPlusSpy/index.html",
+    "main.314d883c.css.map": "/MythicPlusSpy/static/css/main.314d883c.css.map",
+    "main.7ef184a9.js.map": "/MythicPlusSpy/static/js/main.7ef184a9.js.map",
+    "787.2ba75fb5.chunk.js.map": "/MythicPlusSpy/static/js/787.2ba75fb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.314d883c.css",
+    "static/js/main.7ef184a9.js"
+  ]
+}
