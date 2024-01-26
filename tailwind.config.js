@@ -6,7 +6,14 @@ module.exports = {
 			"./components/**/*.{html, js, jsx, ts, tsx}",
 		],
   theme: {
-    extend: {},
+    extend: {
+			backgroundImage: {
+				'paper': 'url("library/images/paper.jpg")',
+			},
+			fontFamily: {
+				'dynapuff': ['dynapuff']
+			}
+		},
   },
   plugins: [],
 }
