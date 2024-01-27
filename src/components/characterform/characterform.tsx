@@ -45,28 +45,7 @@ export const CharacterForm: React.FC<CharacterFormProps> = ({ setData }) => {
 					<div
 						className={
 							`${style.formContainer} 
-							font-dynapuff
-							bg-paper
-							bg-cover
-							bg-center
-							bg-no-repeat
-							gap-7
-							text-lg
-							relative 
-							w-96
-							md:w-full
-							lg:w-2/3 
-							h-full 
-							flex 
-							flex-col 
-							justify-center 
-							items-center 
-							border 
-							border-red-100 
-							shadow-lg 
-							shadow-gray-300
-							`}
-					>
+							font-dynapuff bg-paper bg-cover bg-center bg-no-repeat gap-7 text-lg relative w-96 md:w-full lg:w-2/3 h-full flex flex-col justify-center items-center border border-red-100 shadow-lg shadow-gray-300`}>
 						<div
 							className="absolute top-0 right-0 p-2 text-red-200"
 							onClick={() => { unmountAnimationHandler() }}><IoClose size={"2em"} />
@@ -96,14 +75,7 @@ export const CharacterForm: React.FC<CharacterFormProps> = ({ setData }) => {
 				</div>
 				:
 				<div 
-					className={`
-						${style.formWrapperClosed} 
-						self-center
-						absolute
-						left-0 
-						flex 
-						text-red-200
-						`} 
+					className={`${style.formWrapperClosed} self-center absolute left-0 flex text-red-200`} 
 					onClick={() => { setAnimationClass(`${style.formWrapperEntrance}`); setIsShown(!isShown) }}
 					>
 					<PiNotepadThin size={'5em'} />
